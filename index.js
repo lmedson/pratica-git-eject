@@ -13,4 +13,8 @@ server.use('/helder',(req,res)=>{
  res.send('Hello helder.');
 });
 
+server.use('/helder',(req,res)=>{
+ res.send('Hello helder.');
+});
+
 server.listen(3000,()=>console.log('serve running on port 3000'))
