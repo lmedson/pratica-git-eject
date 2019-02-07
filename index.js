@@ -13,6 +13,9 @@ server.get('/helder',(req,res)=>{
  res.send('Hello helder.');
 });
 
+server.get('/matheus',(req,res)=>{
+    res.send('Hello Matheus.');
+   });
 
 server.get('/felipefranks',(req,res)=>{
  res.send('Hello felipefranks.');
